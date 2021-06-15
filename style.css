@@ -6,6 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 i,cite {
     font-size: 20px;
 }
@@ -13,6 +14,10 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+}
+button:focus {
+    outline: 3px dashed;
+
 }
 
 a:hover {
