@@ -18,6 +18,8 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
+	<!-- arrow website awesome -->
+	<script src="https://kit.fontawesome.com/877c0ba17d.js" crossorigin="anonymous"></script>
 <!-- Analytics -->
 <!-- Analytics END -->
 </head>
@@ -30,8 +32,8 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="atlanta web design logo" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<a class="navbar-brand" href="index.html"><i class="fas fa-arrow-left"></i><img src="img/la-chouette-agence.webp" alt="atlanta web design logo" height="40" /></a>
+				<!-- <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
@@ -41,7 +43,7 @@
 						<a href="index.html">Accueil</a>
 					</li>
 				</ul>
-			</div>
+			</div> -->
 		</nav>
 	</div>
 </div>
@@ -72,16 +74,16 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate>
 					<div class="form-group">
-						<label aria-label="Name">
+						<label  aria-label="Name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name"  placeholder="Entrez votre nom" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label aria-label="Email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control"  aria-describedby="help" placeholder="Entrez votre email" type="email" required />
+						<input id="email" class= "form-control"  aria-describedby="help" placeholder="Entrez votre email" type="email" required />
 						<p id="help">ex:mremail@email.fr</p>
 					</div>
 					<div class="form-group">
@@ -101,7 +103,7 @@
 						<label aria-label="block presentation project">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
-						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<textarea id="message" class="form-control" rows="4" cols="50" required  placeholder="Projet"></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
